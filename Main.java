@@ -9,10 +9,10 @@ public class Main {
        
         System.out.println("Ordenando con diferentes algoritmos...");
 
-        MedidorTiempo.medir(new InsertionSort(), datos, "Insertion Sort");
-        MedidorTiempo.medir(new MergeSort(), datos, "Merge Sort");
-        MedidorTiempo.medir(new QuickSort(), datos, "Quick Sort");
-        MedidorTiempo.medir(new RadixSort(), datos, "Radix Sort");
-        MedidorTiempo.medir(new BucketSort(), datos, "Bucket Sort");
+        MedirTiempo.medir(new InsertionSort(), datos, "Insertion Sort");
+        MedirTiempo.medir(new MergeSort(), datos, "Merge Sort");
+        MedirTiempo.medir(new QuickSort(), datos, "Quick Sort");
+        MedirTiempo.medir(new RadixSort(), datos, "Radix Sort");
+        MedirTiempo.medir(new BucketSort(), datos, "Bucket Sort");
     }
 }

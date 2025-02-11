@@ -1,5 +1,5 @@
 public class MedirTiempo {
-    public static void medir(AlgoritmosOrdenamiento algoritmo, int[] datos, String nombre) {
+    public static void medir(Ordenamiento algoritmo, int[] datos, String nombre) {
         int[] copia = datos.clone();
         long inicio = System.nanoTime();
         algoritmo.ordenar(copia);

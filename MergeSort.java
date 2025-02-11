@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class MergeSort implements AlgoritmosOrdenamiento {
+public class MergeSort implements Ordenamiento {
     public void ordenar(int[] datos) {
         ordenar(datos, 0, datos.length - 1);
     }
