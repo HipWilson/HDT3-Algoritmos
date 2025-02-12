@@ -1,4 +1,4 @@
-public class InsertionSort implements AlgoritmosOrdenamiento {
+public class InsertionSort implements Ordenamiento {
     public void ordenar(int[] datos) {
         for (int i = 1; i < datos.length; i++) {
             int clave = datos[i];
